@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  /* main conatiner */
+  .container {
+      display: flex;
+      max-width: 100%;
+      margin: 0px;
+      padding: 0px;
+  }
+
+  /* navbar */
+  .side-navbar {
+    width: 100px;
+    height: 100vmin;
+    margin: 0;
+    background: #272727;
+    transition: 0.5s;
+  }
+  .side-navbar .fa-menu-icon {
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+    background:#272727;
+  }
+  .side-navbar .fa-menu-icon .fa-bars {
+    color: #fff;
+    font-size: 40px;
+  }
+  .side-navbar .fa-links a {
+    display: block;
+    text-decoration: none;
+    color: #fbfbfb;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .side-navbar .fa-links a:hover, .side-navbar .fa-links a:active {
+    background-color:#3c3a3b;
+    color: #fff;
+  }
+  .side-navbar .fa-links a i {
+    font-size: 18px;
+  }
+  .side-navbar .fa-links a i, .side-navbar .fa-links a .link-name {
+    display: block;
+  }
+  .side-navbar .fa-links a .link-name {
+    margin-top: 0.5rem;
+    font-size: 12px;
+  }
+
+  /* header */
+
+  .shadow {
+      width: 100%;
+      height: 80px;
+      margin: 20px;
+  }
+
+  input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background-color: white;    
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 20%;
+    border-bottom:1px solid #3c3a3b;
+    outline: none;
+  }
+
+  input{
+    border: 0;
+  }
+
+  .search i {
+    margin-right: 16px;
+    padding-left: 16px;
+    font-size: 20px;
+  }
