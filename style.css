@@ -101,10 +101,12 @@
   }
 
   
- img {
-    height: 100px;
-    width: 100px;
+ #img {
+    height: 30px;
+    width: 30px;
     background-image: url('images/pic.png');
     background-size: cover;
     background-position: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
   }
