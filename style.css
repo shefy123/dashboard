@@ -85,7 +85,7 @@
   .search i {
     margin-right: 16px;
     /* padding-left: 16px; */
-    font-size: 20px;
+    font-size: 18px;
     padding: 16px;
   }
 
@@ -97,16 +97,22 @@
   }
 
   .logout-option i , p , #img {
-    padding-right: 16px;
+    padding-left: 16px;
+    margin-left: 16px;
+    font-size: 20px;
   }
 
-  
- #img {
-    height: 30px;
-    width: 30px;
+  .logout-option  p {
+    font-size: 16px;
+  }
+
+  .logout-option #img {
+    height: 34px;
+    width: 34px;
     background-image: url('images/pic.png');
     background-size: cover;
     background-position: center;
-    margin-right: 16px;
-    margin-bottom: 16px;
+    margin-left: 20px;
+ 
+  
   }
